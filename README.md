@@ -1,45 +1,56 @@
 # Aarmac Life Sciences — website
 
-Static site. No build step. 18 HTML pages + `assets/` (shared CSS/JS) + `vercel.json`.
+Static site. No build step. **Every file sits at the repository root — there are no subfolders, on purpose.**
 
-## Deploy to Vercel
+Live: https://website-two-lyart-12.vercel.app
 
-1. Push this folder to a GitHub repo.
-2. Vercel → New Project → import the repo.
-3. Framework preset: **Other**. Build command: *(leave empty)*. Output directory: *(leave empty / `.`)*.
-4. Deploy.
+## Upload rule — read this first
 
-`vercel.json` applies the security headers and cache policy automatically. Brotli and HTTP/3 are on by default on Vercel.
+The previous deploy broke because the `assets/` folder did not make it into the repo, so every
+`.css` and `.js` file 404'd and the site rendered as unstyled text.
 
-## IMPORTANT — change the domain after deploy
+That is why there are no folders any more. When you upload:
 
-Every canonical, `og:url`, `sitemap.xml` entry and `llms.txt` link is currently:
+1. Extract the zip.
+2. Select **all 33 files** (Ctrl+A / Cmd+A inside the extracted folder).
+3. Drag them into GitHub → Add file → Upload files.
+4. Commit. Vercel redeploys on its own.
 
-    https://aarmac-life-sciences.vercel.app
+After the deploy, open the site and confirm it is styled. If it looks like plain blue links again,
+a file is missing — check that all seven `s-*.css` / `s-*.js` files are in the repo.
 
-If your live URL differs (a custom domain, or a different Vercel project name), find and replace that string across the whole repo before or right after the first deploy:
+## Verify after every deploy
+
+```
+https://website-two-lyart-12.vercel.app/s-44cbcef4.css   -> must be 200, content-type text/css
+https://website-two-lyart-12.vercel.app/robots.txt       -> 200
+https://website-two-lyart-12.vercel.app/sitemap.xml      -> 200
+```
+
+## If the domain changes
+
+Every canonical, `og:url`, sitemap entry and `llms.txt` link points at
+`https://website-two-lyart-12.vercel.app`. On a custom domain, replace it everywhere:
 
 ```bash
-grep -rl "aarmac-life-sciences.vercel.app" . \
-  | xargs sed -i 's#https://aarmac-life-sciences.vercel.app#https://YOUR-DOMAIN#g'
+grep -rl "website-two-lyart-12.vercel.app" . \
+  | xargs sed -i 's#https://website-two-lyart-12.vercel.app#https://YOUR-DOMAIN#g'
 ```
 
 Wrong canonicals are worse than no canonicals — do this step.
 
 ## Post-deploy checklist
 
-- [ ] Replace the domain (above).
-- [ ] `https://YOUR-DOMAIN/robots.txt` and `/sitemap.xml` both load.
+- [ ] Site renders styled (not plain links).
+- [ ] `robots.txt` and `sitemap.xml` both load.
 - [ ] Submit the sitemap in Google Search Console.
-- [ ] Check the social card at <https://cards-dev.twitter.com/validator> and Facebook's sharing debugger.
-- [ ] Re-run the SEOmator audit and compare against the 84/100 baseline.
-- [ ] Have a lawyer review `privacy.html`, `terms.html` and `disclaimer.html` — they are drafted, not legally certified.
+- [ ] Verify the FormSubmit address from the email it sends, or contact-form submissions never arrive.
+- [ ] Have a lawyer review `privacy.html`, `terms.html`, `disclaimer.html` — drafted, not certified.
 
 ## Still open
 
-- No social media profile links (none supplied) — add them to the footer and to the `sameAs` array in the JSON-LD in `index.html` when the accounts exist.
+- No social profile links supplied — add them to the footer and to a `sameAs` array in the JSON-LD in `index.html` when the accounts exist.
 - No certifications / trust badges — add when the certificates come through.
-- Contact forms post to FormSubmit (`formsubmit.co`). Verify the address once from the email FormSubmit sends, or submissions will not arrive.
 
 ## File map
 
@@ -50,7 +61,7 @@ Wrong canonicals are worse than no canonicals — do this step.
 | 12 segment pages | One per therapeutic area |
 | `careers.html` | Careers + contact forms |
 | `privacy.html` `terms.html` `disclaimer.html` | Legal |
-| `assets/s-*.css` `assets/s-*.js` | Shared, minified, fingerprinted, cached one year |
+| `s-*.css` `s-*.js` | Shared, minified, fingerprinted, cached one year |
 | `robots.txt` `sitemap.xml` `llms.txt` | Crawler + AI discovery |
-| `og.png` | 1200×630 social share card |
-| `vercel.json` | Security headers + cache policy |
+| `og.png` `logo.png` | Social card + logo |
+| `vercel.json` | Security headers, MIME types, cache policy |

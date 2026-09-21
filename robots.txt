@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aarmac-life-sciences.vercel.app/sitemap.xml
+Sitemap: https://website-two-lyart-12.vercel.app/sitemap.xml
