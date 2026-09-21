@@ -11,3 +11,53 @@
 .legal-body ul{padding-left:1.2rem;display:grid;gap:.5rem}
 .legal-body a{color:var(--blue-600);text-decoration:underline;text-underline-offset:3px}
 .legal-body strong{color:var(--ink)}
+
+/* ---- homepage content blocks ---- */
+.lede{max-width:62ch;margin:1rem 0 2rem;font-size:1.1rem;color:var(--slate)}
+.cta-row{margin-top:2rem;display:flex;flex-wrap:wrap;gap:.8rem}
+.btn--ghost{--bg:transparent;--fg:var(--blue-800);border-color:var(--line-strong)}
+.btn--ghost:hover{--bg:var(--blue-050)}
+.area-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:.9rem}
+.area-list a{display:block;height:100%;background:var(--white);border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.25rem;transition:border-color .2s,transform .2s var(--ease),box-shadow .2s}
+.area-list a:hover{border-color:var(--green-400);transform:translateY(-3px);box-shadow:var(--shadow)}
+.a-name{display:block;font-family:var(--font-display);font-weight:600;font-size:1.04rem;color:var(--blue-900);margin-bottom:.35rem}
+.a-desc{display:block;font-size:.94rem;color:var(--slate);line-height:1.55}
+.how-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,28px)}
+.how-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:clamp(24px,3vw,34px)}
+.how-card h3{font-size:1.2rem;color:var(--blue-900);margin-bottom:.6rem}
+.how-card p{margin:0;color:var(--slate);font-size:1.01rem}
+.how-card em{font-style:normal;color:var(--green-700);font-weight:600}
+.faq-list{display:grid;gap:.7rem;max-width:80ch}
+.faq{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:0}
+.faq summary{cursor:pointer;list-style:none;padding:1rem 1.2rem;font-family:var(--font-display);font-weight:600;font-size:1.02rem;color:var(--blue-900);display:flex;justify-content:space-between;gap:1rem;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:1.3rem;color:var(--green-600);line-height:1;flex:0 0 auto}
+.faq[open] summary::after{content:"\2212"}
+.faq[open] summary{border-bottom:1px solid var(--line)}
+.faq p{margin:0;padding:1rem 1.2rem;color:var(--slate);font-size:1.01rem}
+.reach-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,56px)}
+.reach-grid h3{font-size:1.2rem;color:var(--blue-900);margin-bottom:.8rem}
+.reach-grid p{color:var(--slate);font-size:1.03rem}
+.reach-grid a{color:var(--blue-600);text-decoration:underline;text-underline-offset:3px}
+.reach-grid .btn{text-decoration:none;color:#fff}
+.reach-addr{font-style:normal;color:var(--ink);font-size:1.05rem;line-height:1.8}
+.share{margin-top:clamp(32px,4vw,48px);padding-top:24px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;gap:.7rem;font-size:.95rem;color:var(--slate)}
+.share a{background:var(--blue-050);border:1px solid var(--line);border-radius:999px;padding:.45rem 1rem;font-weight:600;color:var(--blue-800);font-size:.9rem;transition:background .2s,border-color .2s}
+.share a:hover{background:var(--green-050);border-color:var(--green-400)}
+.notice{background:var(--blue-900);color:#D6EDF8;padding:clamp(40px,6vw,64px) 0}
+.notice h2{font-size:clamp(1.3rem,2.6vw,1.7rem);color:#fff;margin-bottom:1rem}
+.notice p{max-width:80ch;font-size:1.01rem;line-height:1.75}
+.notice strong{color:var(--green-400)}
+.notice a{color:#8FD9F5;text-decoration:underline;text-underline-offset:3px}
+.notice-meta,.notice-cite{font-size:.92rem;color:#A9CFE0}
+.notice-meta span{display:inline-block;margin-right:.9rem}
+@media (max-width:920px){.how-grid,.reach-grid{grid-template-columns:1fr}}
+@media (max-width:640px){.area-list{grid-template-columns:1fr}}
+
+.contact-form{display:grid;gap:1.1rem;max-width:560px;margin:1.6rem 0 2.4rem}
+.contact-form .field{display:grid;gap:.4rem}
+.contact-form label{font-family:var(--font-display);font-weight:600;font-size:.9rem;color:var(--blue-900)}
+.contact-form input,.contact-form textarea{font-family:var(--font-body);font-size:1rem;color:var(--ink);background:var(--white);border:1px solid var(--line-strong);border-radius:10px;padding:.75rem .9rem;width:100%}
+.contact-form input:focus,.contact-form textarea:focus{outline:3px solid var(--green-600);outline-offset:1px;border-color:var(--green-600)}
+.contact-form textarea{resize:vertical;min-height:130px}
+.contact-form .btn{justify-self:start}

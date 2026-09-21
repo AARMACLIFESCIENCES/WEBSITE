@@ -5,28 +5,31 @@
 Product information on this site is intended for registered medical practitioners in India. It is not medical advice and is not a substitute for the approved pack insert.
 
 ## Company
-- [Home](https://website-two-lyart-12.vercel.app/): company overview, history from 1997, mission and vision.
-- [Careers & Contact](https://website-two-lyart-12.vercel.app/careers.html): open roles and how to reach the team.
+- [Home](https://website-aarmaclifesciences26-4161.vercel.app/): company overview, history from 1997, mission and vision.
+- [About](https://website-aarmaclifesciences26-4161.vercel.app/about.html): history from 1997, what we make, who publishes this site.
+- [Contact](https://website-aarmaclifesciences26-4161.vercel.app/contact.html): address, phone, email and contact form.
+- [Careers](https://website-aarmaclifesciences26-4161.vercel.app/careers.html): open roles and the application form.
 
 ## Products
-- [Range of Products](https://website-two-lyart-12.vercel.app/products.html): all twelve therapeutic segments.
-- [Antibiotics](https://website-two-lyart-12.vercel.app/antibiotics.html): Coxiclav, Arcefix, Arcepod, Arzolid, Arcef, Arflox.
-- [Pain Management](https://website-two-lyart-12.vercel.app/pain-management.html): SERACT, ARMOL, ARFENAC, ORFLEX, TRYBRU, JOINTEX, FEN.
-- [Ortho](https://website-two-lyart-12.vercel.app/ortho.html): OARFIT, NUROFIT, NURO 1500, EMCAR-500, CATCH X.
-- [Obstetrics & Gynaecology](https://website-two-lyart-12.vercel.app/o-and-g.html): MAXILAC, OGITRIN, INOVITAL, PREGLOL, LYVIT, LYFIT, STIMULOVA, LACTOWIN.
-- [Cough & Cold](https://website-two-lyart-12.vercel.app/cough-cold.html): ARMONT, BROMONT, BROCOLD, BRODYLIN, ARCOLD.
-- [Diabetics](https://website-two-lyart-12.vercel.app/diabetics.html): GLIBEST, CLAMET, GLIPIMIN.
-- [Acidity Management](https://website-two-lyart-12.vercel.app/acidity-management.html): ACIPANZ, RABEA, R-CAIN, NORMOCID.
-- [Skin Care](https://website-two-lyart-12.vercel.app/skin-care.html): ARKETZ, MUPIZIN, LULITOPIC, CALMOIZ.
-- [Multivitamins](https://website-two-lyart-12.vercel.app/multivitamins.html): AVM, VITAZEP, MYDAY.
-- [Iron & Calcium](https://website-two-lyart-12.vercel.app/iron-calcium.html): ARFER, ARPRO, ARCORAL.
-- [Protein Powder](https://website-two-lyart-12.vercel.app/protein-powder.html): ARPRO.
-- [GP & Speciality](https://website-two-lyart-12.vercel.app/gp-speciality.html): B-NOURISH, ARCOLIX, LAXAMIX, VITAZEP, NOBESE, STATT, ELTAN.
+- [Range of Products](https://website-aarmaclifesciences26-4161.vercel.app/products.html): all twelve therapeutic segments.
+- [Antibiotics](https://website-aarmaclifesciences26-4161.vercel.app/antibiotics.html): Coxiclav, Arcefix, Arcepod, Arzolid, Arcef, Arflox.
+- [Pain Management](https://website-aarmaclifesciences26-4161.vercel.app/pain-management.html): SERACT, ARMOL, ARFENAC, ORFLEX, TRYBRU, JOINTEX, FEN.
+- [Ortho](https://website-aarmaclifesciences26-4161.vercel.app/ortho.html): OARFIT, NUROFIT, NURO 1500, EMCAR-500, CATCH X.
+- [Obstetrics & Gynaecology](https://website-aarmaclifesciences26-4161.vercel.app/o-and-g.html): MAXILAC, OGITRIN, INOVITAL, PREGLOL, LYVIT, LYFIT, STIMULOVA, LACTOWIN.
+- [Cough & Cold](https://website-aarmaclifesciences26-4161.vercel.app/cough-cold.html): ARMONT, BROMONT, BROCOLD, BRODYLIN, ARCOLD.
+- [Diabetics](https://website-aarmaclifesciences26-4161.vercel.app/diabetics.html): GLIBEST, CLAMET, GLIPIMIN.
+- [Acidity Management](https://website-aarmaclifesciences26-4161.vercel.app/acidity-management.html): ACIPANZ, RABEA, R-CAIN, NORMOCID.
+- [Skin Care](https://website-aarmaclifesciences26-4161.vercel.app/skin-care.html): ARKETZ, MUPIZIN, LULITOPIC, CALMOIZ.
+- [Multivitamins](https://website-aarmaclifesciences26-4161.vercel.app/multivitamins.html): AVM, VITAZEP, MYDAY.
+- [Iron & Calcium](https://website-aarmaclifesciences26-4161.vercel.app/iron-calcium.html): ARFER, ARPRO, ARCORAL.
+- [Protein Powder](https://website-aarmaclifesciences26-4161.vercel.app/protein-powder.html): ARPRO.
+- [GP & Speciality](https://website-aarmaclifesciences26-4161.vercel.app/gp-speciality.html): B-NOURISH, ARCOLIX, LAXAMIX, VITAZEP, NOBESE, STATT, ELTAN.
 
 ## Legal
-- [Privacy Policy](https://website-two-lyart-12.vercel.app/privacy.html)
-- [Terms of Use](https://website-two-lyart-12.vercel.app/terms.html)
-- [Medical Disclaimer](https://website-two-lyart-12.vercel.app/disclaimer.html)
+- [Privacy Policy](https://website-aarmaclifesciences26-4161.vercel.app/privacy.html)
+- [Terms of Use](https://website-aarmaclifesciences26-4161.vercel.app/terms.html)
+- [Medical Disclaimer](https://website-aarmaclifesciences26-4161.vercel.app/disclaimer.html)
+- [Editorial Policy](https://website-aarmaclifesciences26-4161.vercel.app/editorial-policy.html)
 
 ## Contact
 Aarmac Life Sciences, Door No. 2003/1, Trichy Road, Singanallur, Coimbatore, Tamil Nadu 641005, India.
