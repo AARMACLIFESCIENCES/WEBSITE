@@ -1,0 +1,33 @@
+# Aarmac Life Sciences
+
+> Aarmac Life Sciences is a pharmaceutical company in Coimbatore, Tamil Nadu, India. The group began as Aarmac Labs in 1997, became Aarmac Health Care, and launched Aarmac Life Sciences in 2026. It manufactures and supplies branded formulations across twelve therapeutic segments, for registered medical practitioners.
+
+Product information on this site is intended for registered medical practitioners in India. It is not medical advice and is not a substitute for the approved pack insert.
+
+## Company
+- [Home](https://aarmac-life-sciences.vercel.app/): company overview, history from 1997, mission and vision.
+- [Careers & Contact](https://aarmac-life-sciences.vercel.app/careers.html): open roles and how to reach the team.
+
+## Products
+- [Range of Products](https://aarmac-life-sciences.vercel.app/products.html): all twelve therapeutic segments.
+- [Antibiotics](https://aarmac-life-sciences.vercel.app/antibiotics.html): Coxiclav, Arcefix, Arcepod, Arzolid, Arcef, Arflox.
+- [Pain Management](https://aarmac-life-sciences.vercel.app/pain-management.html): SERACT, ARMOL, ARFENAC, ORFLEX, TRYBRU, JOINTEX, FEN.
+- [Ortho](https://aarmac-life-sciences.vercel.app/ortho.html): OARFIT, NUROFIT, NURO 1500, EMCAR-500, CATCH X.
+- [Obstetrics & Gynaecology](https://aarmac-life-sciences.vercel.app/o-and-g.html): MAXILAC, OGITRIN, INOVITAL, PREGLOL, LYVIT, LYFIT, STIMULOVA, LACTOWIN.
+- [Cough & Cold](https://aarmac-life-sciences.vercel.app/cough-cold.html): ARMONT, BROMONT, BROCOLD, BRODYLIN, ARCOLD.
+- [Diabetics](https://aarmac-life-sciences.vercel.app/diabetics.html): GLIBEST, CLAMET, GLIPIMIN.
+- [Acidity Management](https://aarmac-life-sciences.vercel.app/acidity-management.html): ACIPANZ, RABEA, R-CAIN, NORMOCID.
+- [Skin Care](https://aarmac-life-sciences.vercel.app/skin-care.html): ARKETZ, MUPIZIN, LULITOPIC, CALMOIZ.
+- [Multivitamins](https://aarmac-life-sciences.vercel.app/multivitamins.html): AVM, VITAZEP, MYDAY.
+- [Iron & Calcium](https://aarmac-life-sciences.vercel.app/iron-calcium.html): ARFER, ARPRO, ARCORAL.
+- [Protein Powder](https://aarmac-life-sciences.vercel.app/protein-powder.html): ARPRO.
+- [GP & Speciality](https://aarmac-life-sciences.vercel.app/gp-speciality.html): B-NOURISH, ARCOLIX, LAXAMIX, VITAZEP, NOBESE, STATT, ELTAN.
+
+## Legal
+- [Privacy Policy](https://aarmac-life-sciences.vercel.app/privacy.html)
+- [Terms of Use](https://aarmac-life-sciences.vercel.app/terms.html)
+- [Medical Disclaimer](https://aarmac-life-sciences.vercel.app/disclaimer.html)
+
+## Contact
+Aarmac Life Sciences, Door No. 2003/1, Trichy Road, Singanallur, Coimbatore, Tamil Nadu 641005, India.
+Email: aarmaclifesciences26@gmail.com. Telephone: +91 97894 88862.
