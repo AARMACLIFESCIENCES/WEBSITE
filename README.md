@@ -73,7 +73,6 @@ every deploy. The URL changed twice already, and each change breaks every canoni
 |---|---|
 | `index.html` | Homepage — company, twelve ranges, FAQ, contact, notice |
 | `about.html` | Company history, what we make, who publishes the site |
-| `contact.html` | Address, phone, email, contact form |
 | `editorial-policy.html` | How content is written, checked and corrected |
 | `products.html` | All twelve therapeutic segments |
 | 12 segment pages | One per therapeutic area |

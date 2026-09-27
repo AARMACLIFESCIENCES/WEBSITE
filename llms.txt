@@ -7,7 +7,6 @@ Product information on this site is intended for registered medical practitioner
 ## Company
 - [Home](https://website-aarmaclifesciences26-4161.vercel.app/): company overview, history from 1997, mission and vision.
 - [About](https://website-aarmaclifesciences26-4161.vercel.app/about.html): history from 1997, what we make, who publishes this site.
-- [Contact](https://website-aarmaclifesciences26-4161.vercel.app/contact.html): address, phone, email and contact form.
 - [Careers](https://website-aarmaclifesciences26-4161.vercel.app/careers.html): open roles and the application form.
 
 ## Products
